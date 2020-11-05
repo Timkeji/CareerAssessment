@@ -28,6 +28,10 @@ form tr{
 form tr:nth-child(even){
     margin-bottom: 71rem/@no !important;
 }
+form th::after{
+    content: "*";
+    color: red;
+}
 form th{
     margin-top: 74rem/@no !important;
     font-size: 24rem/@no;
@@ -39,6 +43,7 @@ line-height: 50rem/@no;
 letter-spacing: 1px;
 }
 form td{
+    padding: 0.3125rem 0;
     width:382rem/@no;
 font-size: 16rem/@no;
 color: #000000;
@@ -48,6 +53,7 @@ font-weight: bold;
 }
 .topic_btn {
     text-align: center;
+    margin: 80px 0;
 
     a {
         width: 133rem/@no;
@@ -63,5 +69,8 @@ font-weight: bold;
     a:last-child {
         margin-left: 108rem/@no;
     }
+}
+.alert_numColor{
+    color: red;
 }
 @import "common";
