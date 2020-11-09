@@ -145,7 +145,6 @@ html {
 .topic {
   width: 16.35rem;
   margin-left: 1rem;
-  height: 18.9rem;
 }
 .topic iframe {
   height: 18.9rem;
@@ -159,9 +158,6 @@ html {
   text-align: left;
   color: #000000;
   letter-spacing: 0.16rem;
-}
-a{
-  text-decoration:none;
 }
 html {
   font-size: 100px;

@@ -25,6 +25,10 @@ form tr {
 form tr:nth-child(even) {
   margin-bottom: 0.71rem !important;
 }
+form th::after {
+  content: "*";
+  color: red;
+}
 form th {
   margin-top: 0.74rem !important;
   font-size: 0.24rem;
@@ -35,6 +39,7 @@ form th {
   letter-spacing: 1px;
 }
 form td {
+  padding: 0.3125rem 0;
   width: 3.82rem;
   font-size: 0.16rem;
   color: #000000;
@@ -44,12 +49,7 @@ form td {
 }
 .topic_btn {
   text-align: center;
-  margin-top: 80px;
-
-}
-.topic_btn :hover{
-  text-decoration: none;
-  cursor: pointer;
+  margin: 80px 0;
 }
 .topic_btn a {
   width: 1.33rem;
@@ -59,33 +59,12 @@ form td {
   font-size: 0.18rem;
   color: #fff;
   padding: 0.13rem 0.35rem;
- 
 }
 .topic_btn a:last-child {
   margin-left: 1.08rem;
 }
-a{
-  text-decoration: none;
-}
-table{
-  width: 100%;
-}
-table th {
-  margin-top: 0.74rem !important;
-  font-size: 0.24rem;
-  height: 0.26rem;
-  font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-  color: #000000;
-  line-height: 0.5rem;
-  letter-spacing: 1px;
-}
-table td {
-  width: 3.82rem;
-  font-size: 0.16rem;
-  color: #000000;
-  line-height: 0.5rem;
-  letter-spacing: 1px;
-  font-weight: bold;
+.alert_numColor {
+  color: red;
 }
 html {
   font-size: 100px;
